@@ -1,14 +1,16 @@
 # Maven
 target/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+!target/NewsAggregator2-1.0-SNAPSHOT-shaded.jar
+
 .mvn/
-!.mvn/wrapper/maven-wrapper.jar
+!/.mvn/wrapper/maven-wrapper.jar
 mvnw
 mvnw.cmd
 
-# IntelliJ IDEA
+# Build directories
+build/
+
+# IntelliJ
 .idea/
 *.iml
 
@@ -29,3 +31,9 @@ mvnw.cmd
 
 # macOS
 .DS_Store
+
+# Logs
+*.log
+
+# OS/system files
+Thumbs.db
